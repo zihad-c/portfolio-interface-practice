@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half {
+    width: 50%;
+    padding-left: 5%;
+    margin: auto auto;
+}
+
+.half img {
+    width: 80%;
+}
+
+.half p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    padding-right: 100px;
+}
+
+.zihad {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+} 
+#top {
+    background-image: url(Image/fabio-hanashiro-o3JLjnJ1lNE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#dream {
+    background-image: url(Image/fabio-hanashiro-o3JLjnJ1lNE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#dream img{
+    border-radius: 50%;
+}
+
+#experience-area {
+    padding-top: 5px;
+    background-image: url(image/banner-04.png);
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+#experience-area h2 {
+    padding-left: 100px;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 20px 20px 70px #7c777c;
+}
+
+.experience-item h3 {
+    color: rgb(209, 145, 25);
+}
+
+.slice-01 {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+.slice-02 {
+    border-left: 7px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 2;
+}
+
+footer {
+    text-align: center;
+}
