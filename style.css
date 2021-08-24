@@ -73,8 +73,8 @@ a {
     background-repeat: repeat-y;
 }
 
-#experience-area h2 {
-    padding-left: 100px;
+.experience-area-title {
+    padding-left: 60px;
 }
 
 .experience-item {
